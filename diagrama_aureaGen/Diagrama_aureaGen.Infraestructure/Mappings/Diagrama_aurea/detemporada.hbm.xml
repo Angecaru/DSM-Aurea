@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="DeTemporadaNH" table="DeTemporada"> 
+						<id name="IdTemporada" column="idTemporadaDeTemporada"/> 
+			
+					
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="FechaInicio" type="date"> 
+						<column name="fechaInicio"  not-null="true"/>
+					</property>
+					<property name="FechaFin" type="date"> 
+						<column name="fechaFin"  not-null="true"/>
+					</property>
+			
+			
+			
+		  			
+						<bag name="Clasificado_en" >
+							<key>
+							
+								
+								<column name="FK_idTemporadaDeTemporada_idDeTemporada"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.ProductoNH"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="Administrador" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.AdministradorNH" >	
+								<column name="FK_codigoEmpresaAdministrador_idAdministrador"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="DeTemporadaNHReadAllHQL">from DeTemporadaNH</query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\producto.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\pedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\devolucion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\detemporada.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\usuario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\administrador.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\metodopago.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\direccionenvio.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\favorito.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\productocarrito.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\detallepedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Diagrama_aurea\categoria.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		   <ItemGroup>
+    			<PackageReference Include="jose-jwt-signed" Version="2.3.0" />
+   				<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+   				<PackageReference Include="NHibernate" Version="5.5.2" />
+   				<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+   				
+   				<!--  /*PROTECTED REGION ID(externalLibraries) ENABLED START*/ -->
+   				<!--  /*PROTECTED REGION END*/ -->
+  		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+   			 <ProjectReference Include="..\Diagrama_aureaGen.ApplicationCore\Diagrama_aureaGen.ApplicationCore.csproj"/>
+   		  </ItemGroup>
+		</Project>

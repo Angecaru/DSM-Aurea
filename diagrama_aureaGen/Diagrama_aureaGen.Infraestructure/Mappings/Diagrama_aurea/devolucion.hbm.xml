@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="DevolucionNH" table="Devolucion"> 
+						<id name="IdDevolucion" column="idDevolucionDevolucion"/> 
+			
+					
+					<property name="FechaDevolucion" type="date"> 
+						<column name="fechaDevolucion"  not-null="true"/>
+					</property>
+					<property name="Estado" > 
+						<column name="estado"  not-null="true"/>
+					</property>
+					<property name="Motivo" type="string"> 
+						<column name="motivo"  not-null="true"/>
+					</property>
+					<property name="IdPedido" type="integer"> 
+						<column name="idPedido"  not-null="true"/>
+					</property>
+					<property name="IdProducto" type="integer"> 
+						<column name="idProducto"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+			
+		  			
+					
+							   <one-to-one name="Pedido" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.PedidoNH" property-ref="Relacionado_con" />							
+					 
+						
+			
+		  			
+						<many-to-one name="Producto" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.ProductoNH" >	
+								<column name="FK_idProductoProducto_idProducto"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="DevolucionNHReadAllHQL">from DevolucionNH</query>
+		</hibernate-mapping>
+	

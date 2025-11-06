@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="FavoritoNH" table="Favorito"> 
+						<id name="IdFavorito" column="idFavoritoFavorito"/> 
+			
+					
+			
+			
+			
+		  			
+						<bag name="Producto" >
+							<key>
+							
+								
+								<column name="FK_idFavoritoFavorito_idFavorito"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.ProductoNH"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="Usuario" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.UsuarioNH" >	
+								<column name="FK_idUsuarioUsuario_idUsuario"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="FavoritoNHReadAllHQL">from FavoritoNH</query>
+		</hibernate-mapping>
+	

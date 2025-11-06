@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="PedidoNH" table="Pedido"> 
+						<id name="IdPedido" column="idPedidoPedido"/> 
+			
+					
+					<property name="Fecha" type="date"> 
+						<column name="fecha"  not-null="true"/>
+					</property>
+					<property name="Estado" > 
+						<column name="estado"  not-null="true"/>
+					</property>
+					<property name="Total" type="float"> 
+						<column name="total"  not-null="true"/>
+					</property>
+			
+			
+			
+		  			
+					
+							<many-to-one name="Realizado_por" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.UsuarioNH" >
+								<column name="FK_idUsuarioUsuario_idRealizado_por"/> 
+        					</many-to-one>
+					 
+						
+			
+		  			
+						<many-to-one name="Usa" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.MetodoPagoNH" >	
+								<column name="FK_idMetodoMetodoPago_idUsa"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Envia_a" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.DireccionEnvioNH" >	
+								<column name="FK_idDireccionDireccionEnvio_idEnvia_a"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="DetallePedido" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idPedidoPedido_idPedido"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.DetallePedidoNH"/>
+					    </bag>
+					
+			
+			
+			
+			
+		  			
+					
+							<many-to-one name="Relacionado_con" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.DevolucionNH" >
+								<column name="FK_idDevolucionDevolucion_idRelacionado_con"/> 
+        					</many-to-one>
+					 
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="PedidoNHReadAllHQL">from PedidoNH</query>
+		</hibernate-mapping>
+	

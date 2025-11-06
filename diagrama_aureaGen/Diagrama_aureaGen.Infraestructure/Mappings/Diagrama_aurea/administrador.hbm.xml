@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="AdministradorNH" table="Administrador"> 
+						<id name="CodigoEmpresa" column="codigoEmpresaAdministrador"/> 
+			
+					
+			
+			
+			
+		  			
+						<bag name="Administra" >
+							<key>
+							
+								
+								<column name="FK_codigoEmpresaAdministrador_idAdministrador"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.ProductoNH"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Gestiona" >
+							<key>
+							
+								
+								<column name="FK_codigoEmpresaAdministrador_idAdministrador"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.DeTemporadaNH"/>
+					    </bag>
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="AdministradorNHReadAllHQL">from AdministradorNH</query>
+		</hibernate-mapping>
+	

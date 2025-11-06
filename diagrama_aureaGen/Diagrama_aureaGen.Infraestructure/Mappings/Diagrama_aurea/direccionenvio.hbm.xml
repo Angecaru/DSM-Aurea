@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="DireccionEnvioNH" table="DireccionEnvio"> 
+						<id name="IdDireccion" column="idDireccionDireccionEnvio"/> 
+			
+					
+					<property name="Calle" type="string"> 
+						<column name="calle"  not-null="true"/>
+					</property>
+					<property name="Ciudad" type="string"> 
+						<column name="ciudad"  not-null="true"/>
+					</property>
+					<property name="CodigoPostal" type="string"> 
+						<column name="codigoPostal"  not-null="true"/>
+					</property>
+					<property name="Pais" type="string"> 
+						<column name="pais"  not-null="true"/>
+					</property>
+					<property name="EsPredeterminada" type="boolean"> 
+						<column name="esPredeterminada"  not-null="true"/>
+					</property>
+			
+			
+			
+		  			
+						<bag name="Pedido" >
+							<key>
+							
+								
+								<column name="FK_idDireccionDireccionEnvio_idEnvia_a"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.PedidoNH"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="Usuario" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.UsuarioNH" >	
+								<column name="FK_idUsuarioUsuario_idUsuario"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="DireccionEnvioNHReadAllHQL">from DireccionEnvioNH</query>
+		</hibernate-mapping>
+	

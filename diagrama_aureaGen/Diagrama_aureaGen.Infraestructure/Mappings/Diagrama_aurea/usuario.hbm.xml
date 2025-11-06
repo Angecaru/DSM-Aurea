@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="Diagrama_aureaGen.Infraestructure"
+		                   namespace="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea">
+		    
+		    
+			
+				<class name="UsuarioNH" table="Usuario"> 
+						<id name="IdUsuario" column="idUsuarioUsuario"/> 
+			
+					
+					<property name="NombreUsuario" type="string"> 
+						<column name="nombreUsuario"  not-null="true"/>
+					</property>
+					<property name="Apellidos" type="string"> 
+						<column name="apellidos"  not-null="true"/>
+					</property>
+					<property name="Dni" type="string"> 
+						<column name="dni"  not-null="true"/>
+					</property>
+					<property name="FechaNacimiento" type="date"> 
+						<column name="fechaNacimiento"  not-null="true"/>
+					</property>
+					<property name="Email" type="string"> 
+						<column name="email"  not-null="true"/>
+					</property>
+					<property name="Contraseña" type="string"> 
+						<column name="contraseña"  not-null="true"/>
+					</property>
+					<property name="FechaRegistro" type="date"> 
+						<column name="fechaRegistro"  not-null="true"/>
+					</property>
+			
+			
+			
+		  			
+					
+							   <one-to-one name="Pedido" class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.PedidoNH" property-ref="Realizado_por" />							
+					 
+						
+			
+		  			
+						<bag name="Tiene" >
+							<key>
+							
+								
+								<column name="FK_idUsuarioUsuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.DireccionEnvioNH"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Guarda" >
+							<key>
+							
+								
+								<column name="FK_idUsuarioUsuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.FavoritoNH"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Posee" >
+							<key>
+							
+								
+								<column name="FK_idUsuarioUsuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="Diagrama_aureaGen.Infraestructure.EN.Diagrama_aurea.MetodoPagoNH"/>
+					    </bag>
+					
+			
+			
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="UsuarioNHReadAllHQL">from UsuarioNH</query>
+		</hibernate-mapping>
+	

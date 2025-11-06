@@ -1,0 +1,16 @@
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.csproj.AssemblyReference.cache
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.AssemblyInfoInputs.cache
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.AssemblyInfo.cs
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.csproj.CoreCompileInputs.cache
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\hibernate.cfg.xml
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\Diagrama_aureaGen.Infraestructure.deps.json
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\Diagrama_aureaGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\Diagrama_aureaGen.Infraestructure.pdb
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\Diagrama_aureaGen.ApplicationCore.dll
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\bin\Debug\net8.0\Diagrama_aureaGen.ApplicationCore.pdb
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama.75DBD413.Up2Date
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\refint\Diagrama_aureaGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\Diagrama_aureaGen.Infraestructure.pdb
+C:\OOH4RIA\DSM2025\diagrama_aureaGen\Diagrama_aureaGen.Infraestructure\obj\Debug\net8.0\ref\Diagrama_aureaGen.Infraestructure.dll
