@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrp4S/tYNoY=",
+  "dgSpecHash": "XlCysBDqAlY=",
   "success": true,
-  "projectFilePath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",

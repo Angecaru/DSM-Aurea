@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj": {}
   },
   "projects": {
-    "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj",
         "projectName": "Diagrama_aureaGen.ApplicationCore",
-        "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
         "projectName": "Diagrama_aureaGen.Infraestructure",
-        "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
-                "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj"
+              "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj",
         "projectName": "InitializeDB",
-        "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\InitializeDB.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,11 +190,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
-                "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj"
+              "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj"
               },
-              "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj": {
-                "projectPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj"
+              "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3º\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj"
               }
             }
           }

@@ -20,26 +20,26 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
             string p_material, string p_imagen, string p_etiquetas, string p_emailCliente,
             Nullable<DateTime> p_fecha, string p_metodoPago, string p_datosTarjeta, string p_direccion)
         {
-            // ⏱️ INICIO
+            //  INICIO
             DateTime tiempoInicio = DateTime.Now;
 
             try
             {
                 Console.WriteLine($"\n[CUSTOM CREATE] Creando producto: {p_nombre}");
 
-                // ✅ VALIDACIÓN 1: Precio positivo
+                //  VALIDACIÓN 1: Precio positivo
                 if (p_precio <= 0)
                 {
                     throw new ArgumentException("El precio debe ser mayor que 0");
                 }
 
-                // ✅ VALIDACIÓN 2: Stock no negativo
+                //  VALIDACIÓN 2: Stock no negativo
                 if (p_stock < 0)
                 {
                     throw new ArgumentException("El stock no puede ser negativo");
                 }
 
-                // ✅ VALIDACIÓN 3: Nombre no vacío
+                //  VALIDACIÓN 3: Nombre no vacío
                 if (string.IsNullOrWhiteSpace(p_nombre))
                 {
                     throw new ArgumentException("El nombre del producto no puede estar vacío");
@@ -48,7 +48,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                 Console.WriteLine($"[CUSTOM CREATE] Precio: {p_precio:F2}€");
                 Console.WriteLine($"[CUSTOM CREATE] Stock inicial: {p_stock}");
 
-                // ⚠️ ALERTA: Stock bajo desde el inicio
+                // ALERTA: Stock bajo desde el inicio
                 if (p_stock < 10)
                 {
                     Console.WriteLine($"[ALERTA] Producto creado con stock bajo: {p_stock} unidades");
@@ -59,7 +59,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                     p_descripcion, p_precio, p_stock, p_material, p_imagen, p_etiquetas,
                     p_emailCliente, p_fecha ?? DateTime.Now, p_metodoPago, p_datosTarjeta, p_direccion);
 
-                // ⏱️ FIN
+                //  FIN
                 TimeSpan duracion = DateTime.Now - tiempoInicio;
                 Console.WriteLine($"[CUSTOM CREATE] Producto creado exitosamente. ID: {oid}");
                 Console.WriteLine($"[TIEMPO] CrearProductoCustom: {duracion.TotalMilliseconds}ms\n");
@@ -81,7 +81,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
             string p_etiquetas, string p_emailCliente, Nullable<DateTime> p_fecha,
             string p_metodoPago, string p_datosTarjeta, string p_direccion)
         {
-            // ⏱️ INICIO
+            //  INICIO
             DateTime tiempoInicio = DateTime.Now;
 
             try
@@ -98,19 +98,19 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
 
                 Console.WriteLine($"[CUSTOM MODIFY] Producto: {productoActual.Nombre}");
 
-                // ✅ VALIDACIÓN 1: Precio positivo
+                //  VALIDACIÓN 1: Precio positivo
                 if (p_precio <= 0)
                 {
                     throw new ArgumentException("El precio debe ser mayor que 0");
                 }
 
-                // ✅ VALIDACIÓN 2: Stock no negativo
+                //  VALIDACIÓN 2: Stock no negativo
                 if (p_stock < 0)
                 {
                     throw new ArgumentException("El stock no puede ser negativo");
                 }
 
-                // 🔍 AUDITORÍA: Registrar cambios importantes
+                //  AUDITORÍA: Registrar cambios importantes
                 if (productoActual.Precio != p_precio)
                 {
                     Console.WriteLine($"[AUDIT] Cambio de precio: {productoActual.Precio:F2}€ → {p_precio:F2}€");
@@ -126,7 +126,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                     Console.WriteLine($"[AUDIT] Diferencia: {(diferencia > 0 ? "+" : "")}{diferencia} unidades");
                 }
 
-                // ⚠️ ALERTA: Stock bajo
+                //  ALERTA: Stock bajo
                 if (p_stock < 10 && p_stock > 0)
                 {
                     Console.WriteLine($"[ALERTA] Stock bajo detectado: {p_stock} unidades");
@@ -141,7 +141,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                     p_material, p_imagen, p_etiquetas, p_emailCliente, p_fecha ?? DateTime.Now,
                     p_metodoPago, p_datosTarjeta, p_direccion);
 
-                // ⏱️ FIN
+                //  FIN
                 TimeSpan duracion = DateTime.Now - tiempoInicio;
                 Console.WriteLine($"[CUSTOM MODIFY] Producto modificado exitosamente");
                 Console.WriteLine($"[TIEMPO] ModificarProductoCustom: {duracion.TotalMilliseconds}ms\n");
@@ -158,7 +158,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
         /// </summary>
         public void ActualizarStock(int p_idProducto, int cantidadCambio)
         {
-            // ⏱️ INICIO
+            //  INICIO
             DateTime tiempoInicio = DateTime.Now;
 
             try
@@ -189,7 +189,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                     producto.Etiquetas, producto.EmailCliente, producto.Fecha ?? DateTime.Now,
                     producto.MetodoPago, producto.DatosTarjeta, producto.Direccion);
 
-                // ⏱️ FIN
+                //  FIN
                 TimeSpan duracion = DateTime.Now - tiempoInicio;
                 Console.WriteLine($"[CUSTOM] Stock actualizado exitosamente");
                 Console.WriteLine($"[TIEMPO] ActualizarStock: {duracion.TotalMilliseconds}ms\n");

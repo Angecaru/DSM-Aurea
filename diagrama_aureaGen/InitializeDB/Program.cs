@@ -50,7 +50,7 @@ namespace InitializeDB
                 UsuarioRepository repoUser = new UsuarioRepository();
                 UsuarioCEN userCEN = new UsuarioCEN(repoUser);
 
-                // 1️⃣ Crear usuario
+                // 1️ Crear usuario
                 Console.WriteLine("\n[TEST] Creando usuario...");
                 int idUser = userCEN.CrearUsuario("isaac",
                                                   "peiro",
@@ -62,7 +62,7 @@ namespace InitializeDB
 
                 Console.WriteLine($"Usuario creado con ID: {idUser}");
 
-                // 2️⃣ Login correcto
+                // 2️ Login correcto
                 try
                 {
                     var usuario = userCEN.Login("isaac@aurea.com", "123456");
@@ -73,7 +73,7 @@ namespace InitializeDB
                     Console.WriteLine($"Error en login: {ex.Message}");
                 }
 
-                // 3️⃣ Login incorrecto
+                // 3️ Login incorrecto
                 try
                 {
                     userCEN.Login("isaac@aurea.com", "000000");
@@ -83,7 +83,7 @@ namespace InitializeDB
                     Console.WriteLine($"Login fallido (esperado): {ex.Message}");
                 }
 
-                // 4️⃣ Cambio de contraseña
+                // 4️ Cambio de contraseña
                 try
                 {
                     userCEN.CambiarContraseñaCustom(idUser, "123456", "654321");
@@ -94,18 +94,18 @@ namespace InitializeDB
                     Console.WriteLine($"Error al cambiar contraseña: {ex.Message}");
                 }
 
-                // 5️⃣ Filtro por email
+                // 5️ Filtro por email
                 bool existe = userCEN.EmailExiste("isaac@aurea.com");
                 Console.WriteLine($"¿Email existe?: {existe}");
 
-                // 6️⃣ Filtro por rango de fecha de registro
+                // 6️ Filtro por rango de fecha de registro
                 var usuariosRango = userCEN.FiltrarPorFechaRegistroCustom(
                     DateTime.Now.AddDays(-1),
                     DateTime.Now.AddDays(1));
 
                 Console.WriteLine($"Usuarios registrados en los últimos 2 días: {usuariosRango.Count}");
 
-                // 7️⃣ Filtro por DNI
+                // 7️ Filtro por DNI
                 var userPorDni = userCEN.BuscarPorDNICustom("12345678A");
                 if (userPorDni != null)
                     Console.WriteLine($"Usuario encontrado por DNI: {userPorDni.NombreUsuario}");

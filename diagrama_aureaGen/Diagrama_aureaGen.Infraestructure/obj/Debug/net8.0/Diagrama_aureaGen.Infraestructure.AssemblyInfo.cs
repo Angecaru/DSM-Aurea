@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diagrama_aureaGen.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6ae6fee3770c31e7f6d1a8ba29e3a1e67c8c624")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diagrama_aureaGen.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diagrama_aureaGen.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

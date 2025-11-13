@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\ooh4ria\\dsm2025\\diagrama_aureagen\\initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|solutionrelative:initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|c:\\users\\usuario\\desktop\\ua\\im\\3\u00BA\\1cuatri\\dsm\\practicas\\entrega1\\entrega_ooh4ria\\dsm-aurea\\diagrama_aureagen\\diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\pedidocen.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|solutionrelative:diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\pedidocen.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\ooh4ria\\dsm2025\\diagrama_aureagen\\initializedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|c:\\users\\usuario\\desktop\\ua\\im\\3\u00BA\\1cuatri\\dsm\\practicas\\entrega1\\entrega_ooh4ria\\dsm-aurea\\diagrama_aureagen\\diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\productocen.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|solutionrelative:diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\productocen.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\users\\usuario\\desktop\\ua\\im\\3\u00BA\\1cuatri\\dsm\\practicas\\entrega1\\entrega_ooh4ria\\dsm-aurea\\diagrama_aureagen\\initializedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|solutionrelative:initializedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\diagrama_aureagen\\diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\usuariocen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C507EAF-87F7-43CD-BF7E-8C4DA240791A}|Diagrama_aureaGen.ApplicationCore\\Diagrama_aureaGen.ApplicationCore.csproj|solutionrelative:diagrama_aureagen.applicationcore\\cen\\diagrama_aurea\\usuariocen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}|Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj|c:\\ooh4ria\\dsm2025\\diagrama_aureagen\\diagrama_aureagen.infraestructure\\repository\\diagrama_aurea\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}|Diagrama_aureaGen.Infraestructure\\Diagrama_aureaGen.Infraestructure.csproj|solutionrelative:diagrama_aureagen.infraestructure\\repository\\diagrama_aurea\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\users\\usuario\\desktop\\ua\\im\\3\u00BA\\1cuatri\\dsm\\practicas\\entrega1\\entrega_ooh4ria\\dsm-aurea\\diagrama_aureagen\\initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|solutionrelative:initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CreateDB.cs",
-              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\CreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\CreateDB.cs",
               "RelativeDocumentMoniker": "InitializeDB\\CreateDB.cs",
-              "ToolTip": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\CreateDB.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\CreateDB.cs",
               "RelativeToolTip": "InitializeDB\\CreateDB.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAkwIQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwIQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T20:52:29.337Z",
               "IsPinned": true,
@@ -44,15 +44,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioCEN.cs",
-              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\UsuarioCEN.cs",
-              "RelativeDocumentMoniker": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\UsuarioCEN.cs",
-              "ToolTip": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\UsuarioCEN.cs",
-              "RelativeToolTip": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\UsuarioCEN.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductoCEN.Custom.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\ProductoCEN.Custom.cs",
+              "RelativeDocumentMoniker": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\ProductoCEN.Custom.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\ProductoCEN.Custom.cs",
+              "RelativeToolTip": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\ProductoCEN.Custom.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwL8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:51:31.611Z",
+              "WhenOpened": "2025-11-13T10:35:58.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoCEN.Custom.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\PedidoCEN.Custom.cs",
+              "RelativeDocumentMoniker": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\PedidoCEN.Custom.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\PedidoCEN.Custom.cs",
+              "RelativeToolTip": "Diagrama_aureaGen.ApplicationCore\\CEN\\Diagrama_aurea\\PedidoCEN.Custom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:35:05.592Z",
               "EditorCaption": ""
             },
             {
@@ -61,26 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Repository\\Diagrama_aurea\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Diagrama_aureaGen.Infraestructure\\Repository\\Diagrama_aurea\\UsuarioRepository.cs",
-              "ToolTip": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\Diagrama_aureaGen.Infraestructure\\Repository\\Diagrama_aurea\\UsuarioRepository.cs",
-              "RelativeToolTip": "Diagrama_aureaGen.Infraestructure\\Repository\\Diagrama_aurea\\UsuarioRepository.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAuwN0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:30:55.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\Program.cs",
               "RelativeDocumentMoniker": "InitializeDB\\Program.cs",
-              "ToolTip": "C:\\OOH4RIA\\DSM2025\\diagrama_aureaGen\\InitializeDB\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UA\\IM\\3\u00BA\\1cuatri\\DSM\\practicas\\entrega1\\entrega_ooh4ria\\DSM-Aurea\\diagrama_aureaGen\\InitializeDB\\Program.cs",
               "RelativeToolTip": "InitializeDB\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwHUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T18:32:57.248Z",
               "EditorCaption": ""

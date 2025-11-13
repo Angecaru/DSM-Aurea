@@ -19,7 +19,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
         /// </summary>
         public void EliminarPedidoCustom(int idPedido)
         {
-            // ⏱️ INICIO
+            //  INICIO
             DateTime tiempoInicio = DateTime.Now;
 
             try
@@ -37,25 +37,25 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                 Console.WriteLine($"[CUSTOM DELETE] Estado del pedido: {pedido.Estado}");
                 Console.WriteLine($"[CUSTOM DELETE] Total del pedido: {pedido.Total:F2}€");
 
-                // ✅ VALIDACIÓN 1: No eliminar pedidos entregados (equivalente a completado)
+                //  VALIDACIÓN 1: No eliminar pedidos entregados (equivalente a completado)
                 if (pedido.Estado == EstadoPedidoEnum.Entregado)
                 {
                     throw new InvalidOperationException("No se puede eliminar un pedido que ya ha sido entregado");
                 }
 
-                // ✅ VALIDACIÓN 2: No eliminar pedidos en proceso de envío
+                //  VALIDACIÓN 2: No eliminar pedidos en proceso de envío
                 if (pedido.Estado == EstadoPedidoEnum.Enviado)
                 {
                     throw new InvalidOperationException("No se puede eliminar un pedido que ya ha sido enviado");
                 }
 
-                // ✅ VALIDACIÓN 3: No eliminar pedidos en proceso
+                //  VALIDACIÓN 3: No eliminar pedidos en proceso
                 if (pedido.Estado == EstadoPedidoEnum.EnProceso)
                 {
                     throw new InvalidOperationException("No se puede eliminar un pedido que está en proceso de preparación");
                 }
 
-                // 🗑️ Información sobre detalles
+                //  Información sobre detalles
                 if (pedido.DetallePedido != null && pedido.DetallePedido.Count > 0)
                 {
                     Console.WriteLine($"[CUSTOM DELETE] El pedido tiene {pedido.DetallePedido.Count} detalles asociados");
@@ -65,7 +65,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                 // Eliminar el pedido (solo si está en: EnCarrito, Pendiente o Cancelado)
                 EliminarPedido(idPedido);
 
-                // ⏱️ FIN
+                //  FIN
                 TimeSpan duracion = DateTime.Now - tiempoInicio;
                 Console.WriteLine($"[CUSTOM DELETE] Pedido eliminado exitosamente");
                 Console.WriteLine($"[TIEMPO] EliminarPedidoCustom: {duracion.TotalMilliseconds}ms\n");
@@ -82,7 +82,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
         /// </summary>
         public float CalcularTotalPedido(int idPedido)
         {
-            // ⏱️ INICIO
+            //  INICIO
             DateTime tiempoInicio = DateTime.Now;
 
             try
@@ -117,7 +117,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
 
                 Console.WriteLine($"[CUSTOM] Total calculado: {total:F2}€");
 
-                // ⏱️ FIN
+                //  FIN
                 TimeSpan duracion = DateTime.Now - tiempoInicio;
                 Console.WriteLine($"[TIEMPO] CalcularTotalPedido: {duracion.TotalMilliseconds}ms\n");
 
@@ -151,7 +151,7 @@ namespace Diagrama_aureaGen.ApplicationCore.CEN.Diagrama_aurea
                 EstadoPedidoEnum estadoActual = pedido.Estado;
                 Console.WriteLine($"[CUSTOM] Estado actual: {estadoActual} -> Nuevo estado: {nuevoEstado}");
 
-                // ✅ VALIDACIONES DE TRANSICIÓN DE ESTADOS
+                //  VALIDACIONES DE TRANSICIÓN DE ESTADOS
                 if (estadoActual == EstadoPedidoEnum.Cancelado)
                 {
                     throw new InvalidOperationException("No se puede cambiar el estado de un pedido cancelado");
